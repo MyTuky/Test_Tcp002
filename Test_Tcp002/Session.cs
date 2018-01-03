@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace Test_Tcp002
 {
-    public struct Session
-    {
-        public string SessionId { get; set; }
-        public DateTime LastAccessTime { get; set; }
-    }
+    /// <summary>
+    /// 以删除最古老的会话
+    /// </summary>
+    //public struct Session
+    //{
+    //    /// <summary>
+    //    /// 标识符
+    //    /// </summary>
+    //    public string SessionId { get; set; }
+    //    /// <summary>
+    //    /// 上次访问会话的时间
+    //    /// </summary>
+    //    public DateTime LastAccessTime { get; set; }
+    //}
 }
